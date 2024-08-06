@@ -9,6 +9,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Count-Instance-${count.index}"
+    Name = "prod-Instance-${count.index}"
   }
 }
