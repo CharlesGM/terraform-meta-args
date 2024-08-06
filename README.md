@@ -14,4 +14,3 @@ After deploying resources, uncomment the providers section, and re-initialize to
         #   dynamodb_table = "dynamodb"  
         #   encrypt        = true
         # }
-
